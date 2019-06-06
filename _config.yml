@@ -15,7 +15,7 @@
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "en-US"
+locale                   : "en-UK"
 title                    : "William Fitzpatrick"
 title_separator          : "-"
 name                     : "William Fitzpatrick"
@@ -106,7 +106,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "William Fitzpatric"
+  name             : "William Fitzpatrick"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Engineering Portfolio"
   location         : "Berlin"
@@ -302,4 +302,3 @@ defaults:
   values:
      layout: single
      author_profile: true
-     
