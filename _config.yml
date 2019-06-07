@@ -306,4 +306,4 @@ defaults:
 
 plugins:
   - jekyll-feed
-  - jekyll-include-cach  e
+  - jekyll-include-cache
