@@ -110,7 +110,7 @@ author:
   avatar           : "/images/profile photo.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Engineering Porfolio"
   location         : "Berlin"
-  email            :
+  email            : "willfitzpatrick4@gmail.com"
   linkedin         : "william-fitzpatrick-162790158/"
   github           : "williamfitzpatrick"
   links:
@@ -296,7 +296,7 @@ defaults:
       share: true
       related: true
 
-  # _pages
+# _pages
 - scope:
     path: ""
     type: posts
