@@ -1,4 +1,0 @@
-spec/examples.txt
-*.gem
-Gemfile.lock
-/tmp
