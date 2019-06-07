@@ -107,7 +107,7 @@ analytics:
 # Site Author
 author:
   name             : "William Fitzpatrick"
-  avatar           : "/images/biophoto.jpg"# path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/images/biophoto.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Engineering Portolio"
   location         : "Berlin"
   email            : "willfitzpatrick4@gmail.com"
@@ -283,7 +283,7 @@ compress_html:
 
 
 # Defaults
-defaults:
+default:
   # _posts
   - scope:
       path: ""
@@ -298,7 +298,7 @@ defaults:
 
 # _pages
 - scope:
-    path: ""
+     path: ""
     type: pages
   values:
     layout:  single
