@@ -7,6 +7,6 @@ header:
 
 ---
 
-         I'm a graduate Aerospace Engineer with a diverse skill-set and passion for all things tech.
+I'm a graduate Aerospace Engineer with a diverse skill-set and passion for all things tech.
 
 ---
