@@ -19,7 +19,7 @@ locale                   : "en-UK"
 title                    : "William Fitzpatrick"
 title_separator          : "-"
 name                     : "William Fitzpatrick"
-description              : "Engineering Portfolio"
+description              : "Engineering Portolio"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -107,12 +107,12 @@ analytics:
 # Site Author
 author:
   name             : "William Fitzpatrick"
-  avatar           : "/images/profile photo.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Engineering Porfolio"
+  avatar           : "/images/biophoto.jpg"# path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "Engineering Portolio"
   location         : "Berlin"
   email            : "willfitzpatrick4@gmail.com"
-  linkedin         : "william-fitzpatrick-162790158/"
   github           : "williamfitzpatrick"
+  linkedin         : "/william-fitzpatrick-162790158/"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -296,10 +296,11 @@ defaults:
       share: true
       related: true
 
-#_pages
+# _pages
 - scope:
     path: ""
-    type: posts
+    type: pages
   values:
     layout: single
     author_profile: true
+    
