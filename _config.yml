@@ -110,7 +110,7 @@ author:
   avatar           : "/images/biophoto.jpg" #path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Engineering Portolio"
   location         : "Berlin"
-  email            : "willfitzpatrick4@gmail.com"
+  email            :
   github           : "williamfitzpatrick"
   linkedin         : "/william-fitzpatrick-162790158/"
   links:
@@ -303,3 +303,7 @@ defaults:
   values:
     layout:  single
     author_profile: true
+
+plugins:
+  - jekyll-feed
+  - jekyll-include-cach  e
