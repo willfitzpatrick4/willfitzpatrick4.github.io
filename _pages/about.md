@@ -9,8 +9,10 @@ header:
 
 I'm a graduate Aerospace Engineer with a diverse skill-set and passion for all things tech.
 
-To exhibit the experience I've attained to this point in my career I've built this website to showcase projects I've been a part of.
+Moving on from a bachelors degree I've attained many computational based skills that I'd like to showcase here. I've exhibited the experience I've attained to this point in my career, and included some notable achievements external to academia.
 
-Navigate through the different engineering projects above. 
+Navigate through some of the different engineering projects I've carried out above, as well as some of my key milestones with regards to volunteering projects, music and football.
+
+On the side are links to my linkedin, github and contact details for any inquiries.
 
 ---
