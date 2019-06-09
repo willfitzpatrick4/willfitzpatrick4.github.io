@@ -5,8 +5,8 @@ date: 2018-05-26
 tags: [Aerospace Engineering, Spacecraft, Data Analysis]
 header:
   image: "/images/seperationstages.jpg"
-excerpt: "Engineering Projects, Shock Environment Characterisation and Structural Response to Shock, Aerospace Engineering, Data Analysis"
- ---
+excerpt: "Engineering Projects, Aerospace Engineering, Data Analysis"
+---
 
 # The Manufacturing and Testing of a SHOCK TEST FACILITY
 
