@@ -21,10 +21,9 @@ These particular forms of shock hold the capacity to completely dismantle the su
 ---
 
 
-
 ## The Finalised Design
 
-<img src="/images/solidworks.jpg" width="440"/> <img src="/images/sfc.jpg" width="440"/>
+<img src="/images/solidworks.jpg" width="440"/> <img src="/images/sfc.jpg" width="440" rotate ="90"/>
 
 The procedure was designed as a form of Point Pyroshock Source Simulator with a tuned resonant fixture
 attached to a base plate (fixed to a rack). The pyrotechnic shock simulation technique utilises the projectile capabilities contained within the Single state gas gun.
