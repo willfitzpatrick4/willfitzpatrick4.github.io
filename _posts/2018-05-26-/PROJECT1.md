@@ -23,7 +23,7 @@ These particular forms of shock hold the capacity to completely dismantle the su
 
 ## The Finalised Design
 
-<img src="/images/solidworks.jpg" width="300"/> <img src="/images/sfc.jpg" class="rotate90" width=300>
+<img src="/images/solidworks.jpg" width="300"/> <img src="/images/sfc.jpg" rotate="90" width="300">
 
 An extensive literature review, partnered with assistance from the PHD supervisor allocated to this particular project, helped for the construction of the design to the most optimised experimental procedure (with consideration to the projects scope).
 
@@ -36,7 +36,7 @@ A cylindrical steel projectile (depicted below) would be fired at a pre-determin
 controlled by the Single state gas gun bar. From this point the Dynamic loading response
 would be recorded from 2 accelerometers at equidistance from the point source.
 
-<img src="/images/accelerometer.jpg" class="rotate90"  width="300" />
+<img src="/images/accelerometer.jpg" rotate="90"  width="300"/>
 
 ### Experimental Results
 
@@ -53,9 +53,7 @@ these include:
 
 In investigating the effect of each of the parameters, all the other parameters were kept
 constant and the parameter under analysis was altered incrementally. The configuration of
-the accelerometers was varied through three different locations (depicted in the figure
-below). On the LHS the accelerometer is attached to the tip of the response plate. On the
-RHS the accelerometer is attached directly to the aluminium sheet.
+the accelerometers was varied through three different locations. On the LHS the accelerometer is attached to the tip of the response plate. On the RHS the accelerometer is attached directly to the aluminium sheet.
 
 The experimental procedure was made up of a number of sequential stages. After the
 apparatus was bolted to the rack in the experimental room, the gas gun was loaded with a
@@ -65,11 +63,8 @@ inclosing the gun and apparatus was locked, ensuring all personal were protected
 ricochet of the bullet. The DAQ software was set to record and the recording software
 connected to the barrel of the gas gun was readied.
 
-The pressure valves on the Hopkins
-pressure bar controller were set by the technician, the pressure values were varied
+The pressure valves on the Hopkins pressure bar controller were set by the technician, the pressure values were varied
 depending on the velocity required for the excitation. The projectile was then fired and the
-shock response acquired from the accelerometer was e DAQ software. With each
-accelerometer configuration the velocity was varied at three increments. Each velocity
-increment was repeated to ensure errors in the experiment were bypassed. After data was
+shock response acquired from the accelerometer. With each accelerometer configuration the velocity was varied at three increments. Each velocity increment was repeated to ensure errors in the experiment were bypassed. After data was
 acquired for each velocity increment the material of the bullet was altered from plastic to
-steel (or visa-versa) and the process was rep
+steel (or visa-versa) and the process was repeated.
