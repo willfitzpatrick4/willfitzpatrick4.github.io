@@ -22,11 +22,7 @@ These particular forms of shock hold the capacity to completely dismantle the su
 
 ## The Finalised Design
 
-<p float="left">
-  <img src="/image/solidworks.png" width="100" />
-  <img src="/image/sfc.png" width="100" />
-</p>
-
+<img src="/image/solidworks.png" width="425"/> <img src="/image/sfc.png" width="425"/>
 
 
 
