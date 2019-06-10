@@ -23,14 +23,14 @@ These particular forms of shock hold the capacity to completely dismantle the su
 
 ## The Finalised Design
 
-<img src="/images/solidworks.jpg" width="300"/> <img src="/images/sfc.jpg" rotate="90" width="300">
+<img src="/images/solidworks.jpg" width="300"/> <img src="/images/sfc.jpg" width="300">
 
 An extensive literature review, partnered with assistance from the PHD supervisor allocated to this particular project, helped for the construction of the design to the most optimised experimental procedure (with consideration to the projects scope).
 
 The procedure was designed as a form of Point Pyroshock Source Simulator with a tuned resonant fixture
 attached to a base plate (fixed to a rack). The pyrotechnic shock simulation technique utilises the excitation capabilities of the Single state gas gun.
 
-<img src="/images/solidworks.jpg" width="300"/>
+
 
 A cylindrical steel projectile (depicted below) would be fired at a pre-determined velocity
 controlled by the Single state gas gun bar. From this point the Dynamic loading response
