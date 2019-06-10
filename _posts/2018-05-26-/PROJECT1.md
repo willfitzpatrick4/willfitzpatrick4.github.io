@@ -23,23 +23,23 @@ These particular forms of shock hold the capacity to completely dismantle the su
 
 ## The Finalised Design
 
-<img src="/images/solidworks.jpg" rotate="90"> <img src="/images/sfc.jpg" style="transform:rotate(90deg);" >
+<img src="/images/solidworks.jpg" width="300" > <img src="/images/sfc.jpg" style="transform:rotate(90deg);" width="300">
 
 An extensive literature review, partnered with assistance from the PHD supervisor allocated to this particular project, helped for the construction of the design to the most optimised experimental procedure (with consideration to the projects scope).
 
 The procedure was designed as a form of Point Pyroshock Source Simulator with a tuned resonant fixture
 attached to a base plate (fixed to a rack). The pyrotechnic shock simulation technique utilises the excitation capabilities of the Single state gas gun.
 
-<img src="/images/singlestategasgun.jpg" width="300"/>
+<img src="/images/singlestategasgun.jpg" style="transform:rotate(90deg);" width="300"/>
 
 A cylindrical steel projectile (depicted below) would be fired at a pre-determined velocity
 controlled by the Single state gas gun bar. From this point the Dynamic loading response
 would be recorded from 2 accelerometers at equidistance from the point source.
 
-<img src="/images/accelerometer.jpg" rotate="90"> <img src="/images/accelerometerdiagram.jpg" rotate="90">
+<img src="/images/accelerometer.jpg" style="transform:rotate(90deg);"> <img src="/images/accelerometerdiagram.jpg" style="transform:rotate(90deg);">
 
 
-### Experimental Results
+### Experimental Procedure
 
 In carrying out the experimental procedure, three fundamental parameters relating to the
 acceleration response were outlined as variables. Using these three parameters an
@@ -61,3 +61,5 @@ inclosing the gun and apparatus was locked, ensuring all personal were protected
 
 The pressure valves on the Hopkins pressure bar controller were set by the technician, the pressure values were varied
 depending on the velocity required for the excitation. The projectile was then fired and the shock response acquired from the accelerometer. With each accelerometer configuration the velocity was varied at three increments. Each velocity increment was repeated to ensure errors in the experiment were bypassed. After data was acquired for each velocity increment the material of the bullet was altered from plastic to steel (or visa-versa) and the process was repeated.
+
+#### Experimental response
