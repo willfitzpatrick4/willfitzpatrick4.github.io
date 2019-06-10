@@ -36,6 +36,40 @@ A cylindrical steel projectile (depicted below) would be fired at a pre-determin
 controlled by the Single state gas gun bar. From this point the Dynamic loading response
 would be recorded from 2 accelerometers at equidistance from the point source.
 
-<img id="/images/accelerometer.jpg" class="rotate90"  width="300" />
+<img src="/images/accelerometer.jpg" class="rotate90"  width="300" />
 
 ### Experimental Results
+
+In carrying out the experimental procedure, three fundamental parameters relating to the
+acceleration response were outlined as variables. Using these three parameters an
+experimental procedure was constructed to provide an effective analysis of the acceleration
+response for the pyrotechnic simulation technique. The three parameters investigated in the
+numerical simulations were adjusted to fine tune the SRS slope to the required test levels,
+these include:
+
+- The configuration/position of the accelerometers
+- The material of the projectile impacting the resonator
+- The velocity of the projectile impacting the resonator
+
+In investigating the effect of each of the parameters, all the other parameters were kept
+constant and the parameter under analysis was altered incrementally. The configuration of
+the accelerometers was varied through three different locations (depicted in the figure
+below). On the LHS the accelerometer is attached to the tip of the response plate. On the
+RHS the accelerometer is attached directly to the aluminium sheet.
+
+The experimental procedure was made up of a number of sequential stages. After the
+apparatus was bolted to the rack in the experimental room, the gas gun was loaded with a
+projectile and a response plate was attached to the first configuration position he room of
+the gas gun was exited by the technician, student and project officer. The mesh door
+inclosing the gun and apparatus was locked, ensuring all personal were protected from
+ricochet of the bullet. The DAQ software was set to record and the recording software
+connected to the barrel of the gas gun was readied.
+
+The pressure valves on the Hopkins
+pressure bar controller were set by the technician, the pressure values were varied
+depending on the velocity required for the excitation. The projectile was then fired and the
+shock response acquired from the accelerometer was e DAQ software. With each
+accelerometer configuration the velocity was varied at three increments. Each velocity
+increment was repeated to ensure errors in the experiment were bypassed. After data was
+acquired for each velocity increment the material of the bullet was altered from plastic to
+steel (or visa-versa) and the process was rep
