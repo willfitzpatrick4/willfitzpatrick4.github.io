@@ -23,7 +23,7 @@ These particular forms of shock hold the capacity to completely dismantle the su
 
 ## The Finalised Design
 
-<img src="/images/solidworks.jpg" rotate="90"> <img src="/images/sfc.jpg" rotate="90">
+<img src="/images/solidworks.jpg" rotate="90"> <img src="/images/sfc.jpg" style="transform:rotate(90deg);" >
 
 An extensive literature review, partnered with assistance from the PHD supervisor allocated to this particular project, helped for the construction of the design to the most optimised experimental procedure (with consideration to the projects scope).
 
