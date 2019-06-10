@@ -22,9 +22,11 @@ These particular forms of shock hold the capacity to completely dismantle the su
 
 ## The Finalised Design
 
-Rendered Image             |  Finished Shock Test Facility
-:-------------------------:|:-------------------------:
-![](/image/solidworks.png) |  ![](/image/sfc.png)
+<p float="left">
+  <img src="/image/solidworks.png" width="100" />
+  <img src="/image/sfc.png" width="100" />
+</p>
+
 
 
 
