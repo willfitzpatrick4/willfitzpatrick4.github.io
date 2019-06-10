@@ -23,23 +23,17 @@ These particular forms of shock hold the capacity to completely dismantle the su
 
 ## The Finalised Design
 
-<img src="/images/solidworks.jpg" width="300"/>  <img src="/images/sfc.jpg" width="300" rotate="90"/>
+<img src="/images/solidworks.jpg" width="300"/> <img id="image_canv" src="/images/sfc.jpg" class="rotate90" width=300>
 
 An extensive literature review, partnered with assistance from the PHD supervisor allocated to this particular project, helped for the construction of the design to the most optimised experimental procedure (with consideration to the projects scope).
 
 The procedure was designed as a form of Point Pyroshock Source Simulator with a tuned resonant fixture
 attached to a base plate (fixed to a rack). The pyrotechnic shock simulation technique utilises the projectile capabilities contained within the Single state gas gun.
 
-The chosen materials for the constituent parts were as follows: aluminum for the base component
-and steel for the resonant fixture. As depicted above, attached to the main sheet, on the right of the steel fixture exists a repsonse plate. A feature that gives rise to an amplification of the induced stress wave through the aluminium sheet. Attached to the extremity of the response plate was an accelerometer.
-
 A cylindrical steel projectile (depicted below) would be fired at a pre-determined velocity
 controlled by the Single state gas gun bar. From this point the Dynamic loading response
 would be recorded from 2 accelerometers at equidistance from the point source.
 
-<img src="/images/accelerometer.jpg" width="300"/>
+<img id="/images/accelerometer.jpg" class="rotate90"  width="300" />
 
-
-
-
-### Ex
+### Experimental Results
