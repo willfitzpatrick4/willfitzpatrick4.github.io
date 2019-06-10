@@ -35,7 +35,7 @@ A cylindrical steel projectile (depicted below) would be fired at a pre-determin
 controlled by the Single state gas gun bar. From this point the Dynamic loading response
 would be recorded from 2 accelerometers at equidistance from the point source.
 
-<img src="/images/accelerometer.jpg" style="transform:rotate(90deg);"> <img src="/images/accelerometerdiagram.jpg" style="transform:rotate(90deg);" width="300">
+<img src="/images/accelerometer.jpg" style="transform:rotate(90deg);" width="300"> <img src="/images/accelerometerdiagram.jpg" width="300">
 
 
 ### Experimental Procedure
