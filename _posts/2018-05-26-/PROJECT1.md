@@ -23,7 +23,7 @@ These particular forms of shock hold the capacity to completely dismantle the su
 
 ## The Finalised Design
 
-<img src="/images/solidworks.jpg" width="300"/> <img src="/images/sfc.jpg" style="transform:rotate(90deg) width="300"/>
+<img src="/images/solidworks.jpg" rotate="90"> <img src="/images/sfc.jpg" rotate="90">
 
 An extensive literature review, partnered with assistance from the PHD supervisor allocated to this particular project, helped for the construction of the design to the most optimised experimental procedure (with consideration to the projects scope).
 
@@ -36,7 +36,7 @@ A cylindrical steel projectile (depicted below) would be fired at a pre-determin
 controlled by the Single state gas gun bar. From this point the Dynamic loading response
 would be recorded from 2 accelerometers at equidistance from the point source.
 
-<img src="/images/accelerometer.jpg" style="transform:rotate(90deg)/> <img src="/images/accelerometerdiagram.jpg" style="transform:rotate(90deg)/>
+<img src="/images/accelerometer.jpg" rotate="90"> <img src="/images/accelerometerdiagram.jpg" rotate="90">
 
 
 ### Experimental Results
