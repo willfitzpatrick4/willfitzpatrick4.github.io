@@ -22,7 +22,7 @@ These particular forms of shock hold the capacity to completely dismantle the su
 
 ## The Finalised Design
 
-<img src="/images/solidworks.jpg" width="300"> <img src="/images/sfc.jpg" style="transform:rotate(90deg);" width="300">
+<img src="/images/solidworks.jpg" width="300"> <img src="/images/sfc.jpg" style="transform:rotate(90deg);" width="440">
 
 An extensive literature review was carried out to inspire the design of a Shock Test Facility optimised in carrying out an experimental procedure capable of replicating the shock levels experienced in space.
 
