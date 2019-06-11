@@ -24,18 +24,16 @@ These particular forms of shock hold the capacity to completely dismantle the su
 
 <img src="/images/solidworks.jpg" width="300"> <img src="/images/sfc.jpg" style="transform:rotate(90deg);" width="300">
 
-An extensive literature review, partnered with assistance from the PHD supervisor allocated to this particular project, helped for the construction of the design to the most optimised experimental procedure (with consideration to the projects scope).
+An extensive literature review was carried out to inspire the design of a Shock Test Facility optimised in carrying out an experimental procedure capable of replicating the shock levels experienced in space.
 
 The procedure was designed as a form of Point Pyroshock Source Simulator with a tuned resonant fixture
 attached to a base plate (fixed to a rack). The pyrotechnic shock simulation technique utilises the excitation capabilities of the Single state gas gun.
 
-<img src="/images/singlestategasgun.jpg" width="440">
+<img src="/images/singlestategasgun.JPG" width="300">
 
-A cylindrical steel projectile (depicted below) would be fired at a pre-determined velocity
-controlled by the Single state gas gun bar. From this point the Dynamic loading response
-would be recorded from 2 accelerometers at equidistance from the point source.
+A cylindrical steel projectile (depicted below) would be fired at a pre-determined velocity controlled by the Single state gas gun bar. From this point the Dynamic loading response would be recorded from 2 accelerometers at equidistance from the point source.
 
-<img src="/images/accelerometer.jpg" style="transform:rotate(90deg);" width="300"> <img src="/images accelerometerdiagram.jpg">
+<img src="/images/accelerometer.jpg" style="transform:rotate(90deg);" width="300">  <img src="/images/accelerometerdiagram.jpg">
 
 
 ### Experimental Procedure
