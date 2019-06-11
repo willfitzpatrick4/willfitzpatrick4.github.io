@@ -33,8 +33,6 @@ attached to a base plate (fixed to a rack). The pyrotechnic shock simulation tec
 
 A cylindrical steel projectile (depicted below) would be fired at a pre-determined velocity controlled by the Single state gas gun bar. From this point the Dynamic loading response would be recorded from 2 accelerometers at equidistance from the point source.
 
-<img src="/images/accelerometerdiagram.jpg" width="300">
-
 
 ### Experimental Procedure
 
@@ -57,6 +55,6 @@ The experimental procedure was made up of a number of sequential stages. After t
 inclosing the gun and apparatus was locked, ensuring all personal were protected from ricochet of the bullet. The DAQ software was set to record and the recording software connected to the barrel of the gas gun was readied.
 
 The pressure valves on the Hopkins pressure bar controller were pre-set, the pressure values were varied
-depending on the velocity required for the excitation. The projectile was then fired and the shock response recorded from the accelerometer attached to the aluminium base plate. With each accelerometer configuration the velocity was varied at three increments. Each velocity increment was repeated to ensure anomalies in the experiment were bypassed. After data was acquired for each velocity increment the material of the bullet was altered from plastic to steel (or visa-versa) and the process was repeated.
+depending on the velocity required for the excitation. The projectile was then fired and the shock response recorded from the accelerometer attached to the aluminium base plate. With each accelerometer configuration the velocity was varied at three increments. Each velocity increment was repeated to ensure anomalies in the experiment were marginalised. After data was acquired for each velocity increment the material of the bullet was altered from plastic to steel (or visa-versa) and the process was repeated.
 
 #### Experimental Results
