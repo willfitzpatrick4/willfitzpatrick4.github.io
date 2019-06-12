@@ -13,4 +13,4 @@ excerpt: "Engineering Projects, Aerospace Engineering, Data Analysis"
 
 The principle objective of this experiment was to discern the overall performance levels of an AMT Olympus turbojet engine. This was achieved through analysing the performance and component efficiencies at various stages corresponding to phases in a typical jet cycle. These results were juxtaposed with those of typical larger scale gas turbine engines.
 
-<img src="/images/turbojetspec" width="300">
+<img src="/images/turbojetspec">
