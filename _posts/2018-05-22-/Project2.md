@@ -9,9 +9,11 @@ excerpt: "Engineering Projects, Aerospace Engineering, Data Analysis"
 
 ---
 
-# How Does It Work?
+# Turbofan VS Turbojet
 
-There exist six main types of jet engine. The image above depicts a turbofan, employed mainly for commercial use based on its optimal efficiency levels between a Mach number of 0.8 and 0.9. A turbofan operates almost identically to a turbojet but with a portion of the air partitioned from the inlet. In essence, a turbofan emits a large amount of air more slowly, whereas a turbojet emits a smaller amount of air quickly, leading to knock down effect on the efficiency of the aircraft. 
+There exist six main types of jet engine. The image above depicts a turbofan, employed mainly for commercial use based on its optimal efficiency levels between a Mach number of 0.8 and 0.9. A turbofan operates almost identically to a turbojet but with a portion of the air partitioned from the inlet. In essence, a turbofan emits a larger amount of air at slower rate, whilst a turbojet exhausts a smaller amount of air at a faster rate, leading to knock down effects on the efficiency of the engine. The main body of this analysis is concerned with a turbojet. Specifically the AMT Olympus Turbojet based in Manchester.
+
+## How does a Turbojet Work ?
 
 <img src="/images/turbojetengine.JPG" width="440"> <img src="/images/turbojetengine.JPG" width="440">
 
