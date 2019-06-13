@@ -15,11 +15,11 @@ There are six main types of jet engine. The image above depicts a turbofan, empl
 
 In essence, a turbofan emits a larger amount of air at slower rate, whilst a turbojet exhausts a smaller amount of air at a faster rate, leading to knock down effects on the efficiency of the engine.
 
-Despite this however, a disparity in efficiency is slowly reversed as the Mach number increases, the main body of the analysis in this post is concerned with the performance of the AMT Olympus Turbojet based in Manchester.
+Despite this however, a disparity in efficiency is slowly reversed as the Mach number increases. This was a fundamental reason for engineers behind supersonic aircraft (such as the Concorde or Bristol type 223) opting for turbojet engines as an alternative to turbofans or turboprops. The main body of the analysis in this post is concerned with the performance of the AMT Olympus Turbojet.
 
 ## How does a Turbojet Engine Work ?
 
-<img src="/images/turbojetengine.JPG" width="300">
+<img src="/images/turbojetengine.JPG" width="440">
 
 By <a href="//commons.wikimedia.org/wiki/User:Jeff_Dahl" title="User:Jeff Dahl">Jeff Dahl</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0" title="Creative Commons Attribution-Share Alike 4.0">CC BY-SA 4.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=3235265">Link</a>
 
