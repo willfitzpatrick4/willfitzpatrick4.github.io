@@ -11,14 +11,15 @@ excerpt: "Engineering Projects, Aerospace Engineering, Data Analysis"
 
 # Turbofan VS Turbojet
 
-There exist six main types of jet engine. The image above depicts a turbofan, employed mainly for commercial use based on its optimal efficiency levels between a Mach number of 0.8 and 0.9. A turbofan operates almost identically to a turbojet but with a portion of the air partitioned from the inlet. For the same thrust a turbofan will provide a reduced fuel consumption.
+There are six main types of jet engine. The image above depicts a turbofan, employed mainly for commercial use based on its optimal efficiency levels between a Mach number of 0.8 and 0.9. A turbofan operates almost identically to a turbojet but with a portion of the air partitioned from the inlet. For the same thrust a turbofan will provide a reduced fuel consumption.
 
-In essence, a turbofan emits a larger amount of air at slower rate, whilst a turbojet exhausts a smaller amount of air at a faster rate, leading to knock down effects on the efficiency of the engine. The disparity in efficiency is reversed at high Mach number.    he main body of this analysis is concerned with a turbojet. Specifically the AMT Olympus Turbojet based in Manchester.
+In essence, a turbofan emits a larger amount of air at slower rate, whilst a turbojet exhausts a smaller amount of air at a faster rate, leading to knock down effects on the efficiency of the engine.
 
-## How does a Turbojet Work ?
+Despite this however, a disparity in efficiency is slowly reversed as the Mach number increases, the main body of the analysis in this post is concerned with the performance of the AMT Olympus Turbojet based in Manchester.
 
-<img src="/images/turbojetengine.JPG" width="440"/> 
+## How does a Turbojet Engine Work ?
 
+<img src="/images/turbojetengine.JPG" width="300">
 
 By <a href="//commons.wikimedia.org/wiki/User:Jeff_Dahl" title="User:Jeff Dahl">Jeff Dahl</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0" title="Creative Commons Attribution-Share Alike 4.0">CC BY-SA 4.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=3235265">Link</a>
 
@@ -39,6 +40,8 @@ As compressed air leaves the compressor it is mixed with fuel and ignited in the
 In the first stage, the rotation of the turbine is largely down to the impact of the high energy products of the combustion, hence is often referred to as an impulse turbine. Energy is transferred to the central shaft by a momentum transfer that mirrors the energy transfer in the compressor but in reverse. The shaft power harnessed by the turbine is employed to rotate the compressor.
 
 ### Nozzle
+
+
 
 
 
