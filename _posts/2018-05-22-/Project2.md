@@ -29,9 +29,7 @@ The process is commenced firstly with air intake through the inlet. For low spee
 
 ### Compressor
 
-As the name indicates, the next stage is designed to compress the air taken in through the inlet, thereby increasing the pressure through reducing the volume to a fraction of its initial value (resulting in an increase in internal energy). The compressor is perpetually spinning due to energy transfers from the turbine to the central shaft later in the process.  
-
-<img src="/images/gaslaw.png">
+As the name indicates, the next stage is designed to compress the air taken in through the inlet, thereby increasing the pressure through reducing the volume to a fraction of its initial value (resulting in an increase in internal energy). The compressor is perpetually spinning due to energy transfers from the turbine to the central shaft.
 
 ### Combustor
 
@@ -50,12 +48,56 @@ The nozzle is the component of the engine that converts the internal energy of t
 
 ## Aims and Objectives
 
-The principle objective of this experiment was to discern the overall performance levels of an AMT Olympus turbojet engine. This was achieved through analysing the performance and component efficiencies at various flight stages. These corresponded to fundemental s. These results were juxtaposed with those of typical larger scale gas turbine engines.
+The principle objective of this experiment was to discern the overall performance levels of an AMT Olympus turbojet engine. This was achieved through analysing the performance and component efficiencies at various flight stages. These corresponded to fundamental points within a jet cycle. These results were juxtaposed with those of typical larger scale gas turbine engines.
+
+The specification of the engine is dipicted in the table below.
 
 <img src="/images/turbojetspec.jpg">
+
 
 The test procedure was carried out in a way that would test the engine at various conditions, namely: idle power, approach power, climb power and take off/go around power.
 
 The equipment was initialised from an engine cold-start. During the first run, communication on what throttle percentages were to be targeted for each increment in ‘phase’ of flight. The ‘Test and Data Recording’ for the cold start was the same as the hot start procedure, no test was carried out before the cold start. in addition, throttle increments were random due to the communication issue. This did not have a major impact on the results, albeit the ‘phases’ of flight were not consistent with a hot engine start.
 
-### Experimental results
+### Experimental procedure
+
+Two tests were to be performed with four identical setting values for the throttle.
+The total fuel consumed was calculated to be around 1.308 litres where the idle fuel was
+extrapolated from existing data. This assumed that the additional amount of fuel equal to the fuel used for an average throttle between the two intervals. This was a good assumption as the fuel was calculated for the
+midpoint between the two intervals for 10 seconds but it took less than 10 seconds to
+adjust the throttle. Instead of adding an additional test point we agreed to keep the fuel
+used below the 1.5 litres to limit to accommodate for inefficiency and potential mistakes or
+longer transition time between intervals than the ten seconds assumed. The chosen throttle
+settings were based on actual operational conditions of an aircraft: 0% at the gate, 80% at
+cruise and 100% at take-off. 40% was chosen as a mid-range value for landing and to create
+a more comprehensive analysis.
+
+At each test condition, ten consecutive real-time values were recorded for each parameter
+measured (gauge pressure, fuel flow rate, thrust consumed, EGT and RPM) using the DAQ
+system/LabView software and the related sensing hardware. This was essential in order to
+analyse the results. The same throttle setting values were chosen for the second test in
+order to compare the engine performance at ‘cold start’ and ‘hot start’ conditions.
+The ‘hot start’ conditions were achieved by taking readings before the engine had time to
+cool shortly after operating at 100% throttle consequently the second test would begin at a
+higher temperature.
+
+# Experimental Results
+
+<img src="/images/keyequation.jpg">
+
+<img src="/images/T-Splothotstart20%throttle.jpg">
+
+<img src="/images/hotstarttempvsentropy.jpg">
+
+<img src="/images/thrustvsrpm.jpg">
+
+
+<img src="/images/temperatureentropyplot100%throttle.jpg">
+
+
+
+
+
+
+
+>
