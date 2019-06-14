@@ -91,7 +91,6 @@ higher temperature.
 
 <img src="/images/thrustvsrpm.jpg">
 
-
 <img src="/images/temperatureentropyplot100%throttle.jpg">
 
 
