@@ -85,7 +85,7 @@ higher temperature.
 
 To determine the change in temperature with entropy the following formula was utilised.
 
-<img src="/images/keyequation.JPG">
+<img src="/images/keyequation.JPG" class="center">
 
 <img src="/images/plothotstart20throttle.JPG">
 
