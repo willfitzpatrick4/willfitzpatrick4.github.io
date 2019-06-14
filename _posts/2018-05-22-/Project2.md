@@ -52,7 +52,7 @@ The principle objective of this experiment was to discern the overall performanc
 
 The specification of the engine is dipicted in the table below.
 
-<img src="/images/turbojetspec.jpg">
+<img src="/images/turbojetspec.JPG">
 
 
 The test procedure was carried out in a way that would test the engine at various conditions, namely: idle power, approach power, climb power and take off/go around power.
