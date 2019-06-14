@@ -27,13 +27,13 @@ The components of a gas turbine engine work sequentially with each other to gene
 
 ### Inlet
 
-The process is commenced firstly with air intake through the inlet. The inlet is designed to maximise the volume of air admitted into the engine whilst ensuring directionally smooth airflow into the compressor.
+The process is commenced firstly with air intake through the inlet. For low speed aircraft a key main responsibility of an inlet is to maximise the volume of air admitted into the engine whilst ensuring directionally smooth airflow into the compressor. Despite this, an inlet must also be designed for optimal efficiency across the entirety of an aircrafts flight envelope. At the start of an aircrafts take off sequence the inlet acts as an intake for air, but at high speeds an optimal inlet allows an aircraft to maneuver to high angles of attack without disrupting intake to the compressor. Because of its bearing on aircraft performance, the inlet is often designed by the company in charge of the airframe instead of the engine manufacturers.
 
 ### Compressor
 
 As the name indicates, the next stage is designed to compress the air taken in through the inlet, thereby increasing the pressure through reducing the volume to a fraction of its initial value (resulting in an increase in internal energy). The compressor is perpetually spinning due to energy transfers from the turbine to the central shaft later in the process.  
 
-<img src="/images/gaslaw.png" onerror="this.onerror=null;this.src="/images/gaslaw.png" />
+<img src="/images/gaslaw.png">
 
 ### Combustor
 
@@ -46,12 +46,6 @@ In the first stage, the rotation of the turbine is largely down to the impact of
 ### Nozzle
 
 The nozzle is the component of the engine that converts the internal energy of the working gas into propulsive force. The power setting of the engine dictates the speed to which the nozzle accelerates the air (supersonic, subsonic or transonic). Likewise, the pressure values at the entry and exit have a bearing on the exit velocity of the flow.
-
-
-
-A propelling nozzle is a nozzle that converts the internal energy of a working gas into propulsive force; it is the nozzle, which forms a jet, that separates a gas turbine, being gas generator, from a jet engine.
-
-Propelling nozzles accelerate the available gas to subsonic, transonic, or supersonic velocities depending on the power setting of the engine, their internal shape and the pressures at entry to, and exit from, the nozzle. The internal shape may be convergent or convergent-divergent (C-D). C-D nozzles can accelerate the jet to supersonic velocities within the divergent section, whereas a convergent nozzle cannot accelerate the jet beyond sonic speed.[1]
 
 Propelling nozzles may have a fixed geometry, or they may have variable geometry to give different exit areas to control the operation of the engine when equipped with an afterburner or a reheat system. When afterburning engines are equipped with a C-D nozzle the throat area is variable. Nozzles for supersonic flight speeds, at which high nozzle pressure ratios are generated,[2] also have variable area divergent sections.[3]
 
