@@ -2,7 +2,7 @@
 
 title: "Turbojet Engine Analysis"
 date: 2018-05-26
-tags: [Aerospace Engineering, Jet engine, Data Analysis]
+tags: [Aerospace Engineering]
 header:
   image: "/images/commercialengine.jpg"
 excerpt: "Engineering Projects, Aerospace Engineering, Data Analysis"
@@ -15,7 +15,7 @@ There are six main types of jet engine. The image above depicts a turbofan, empl
 
 In essence, a turbofan emits a larger amount of air at slower rate, whilst a turbojet exhausts a smaller amount of air at a faster rate, leading to knock down effects on the efficiency of the engine.
 
-Despite this however, a disparity in efficiency is slowly reversed as the Mach number increases. This was a fundamental reason for engineers behind supersonic aircraft (such as the Concorde or Bristol type 223) opting for turbojet engines as an alternative to turbofans or turboprops. The main body of the analysis in this post is concerned with the performance of the AMT Olympus Turbojet.
+Despite this however, a disparity in efficiency is slowly reversed as the Mach number increases. This was a fundamental reason for engineers behind supersonic aircraft (such as the Concorde or Bristol type 223) opting for turbojet engines as an alternative to turbofans or turboprops. The main body of the analysis in this post is concerned with the performance of a Turbojet, in particularly the AMT Olympus Turbojet.
 
 ## How does a Turbojet Engine Work ?
 
@@ -45,6 +45,15 @@ In the first stage, the rotation of the turbine is largely down to the impact of
 
 ### Nozzle
 
+The nozzle is the component of the engine that converts the internal energy of the working gas into propulsive force. The power setting of the engine dictates the speed to which the nozzle accelerates the air (supersonic, subsonic or transonic). Likewise, the pressure values at the entry and exit have a bearing on the exit velocity of the flow.
+
+
+
+A propelling nozzle is a nozzle that converts the internal energy of a working gas into propulsive force; it is the nozzle, which forms a jet, that separates a gas turbine, being gas generator, from a jet engine.
+
+Propelling nozzles accelerate the available gas to subsonic, transonic, or supersonic velocities depending on the power setting of the engine, their internal shape and the pressures at entry to, and exit from, the nozzle. The internal shape may be convergent or convergent-divergent (C-D). C-D nozzles can accelerate the jet to supersonic velocities within the divergent section, whereas a convergent nozzle cannot accelerate the jet beyond sonic speed.[1]
+
+Propelling nozzles may have a fixed geometry, or they may have variable geometry to give different exit areas to control the operation of the engine when equipped with an afterburner or a reheat system. When afterburning engines are equipped with a C-D nozzle the throat area is variable. Nozzles for supersonic flight speeds, at which high nozzle pressure ratios are generated,[2] also have variable area divergent sections.[3]
 
 
 

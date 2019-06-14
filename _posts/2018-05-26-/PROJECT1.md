@@ -2,7 +2,7 @@
 
 title: "A Shock Test Facility to Replicate Launch Conditions"
 date: 2018-05-26
-tags: [Aerospace Engineering, Spacecraft, Data Analysis]
+tags: [Spacecraft Flight]
 header:
   image: "/images/seperationstages.jpg"
 excerpt: "Engineering Projects, Aerospace Engineering, Data Analysis"
@@ -29,7 +29,7 @@ An extensive literature review was carried out to inspire the design of a Shock 
 The procedure was designed as a form of Point Pyroshock Source Simulator with a tuned resonant fixture
 attached to a base plate (fixed to a rack). The pyrotechnic shock simulation technique utilises the excitation capabilities of the Single state gas gun.
 
-<p style="text-align:center;"><img src="/images/singlestategasgun.JPG" width="440"></p>
+<p style="text-align:center;"> <img src="/images/singlestategasgun.JPG" width="440"></p>
 
 A cylindrical steel projectile (depicted below) would be fired at a pre-determined velocity controlled by the Single state gas gun bar. From this point the Dynamic loading response would be recorded from 2 accelerometers at equidistance from the point source.
 
