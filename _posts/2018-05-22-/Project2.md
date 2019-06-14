@@ -98,6 +98,8 @@ To determine the change in temperature with entropy the following formula was ut
 <img src="/images/temperaturevsentropy.JPG">
 
 
+## Discussion
+
 
 
 
