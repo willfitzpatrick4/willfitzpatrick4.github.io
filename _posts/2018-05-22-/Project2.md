@@ -13,13 +13,11 @@ excerpt: "Engineering Projects, Aerospace Engineering, Data Analysis"
 
 There are six main types of jet engine. The image above depicts a turbofan, employed mainly for commercial use based on its optimal efficiency levels between a Mach number of 0.8 and 0.9. A turbofan operates almost identically to a turbojet but with a portion of the air partitioned from the inlet. For the same thrust a turbofan will provide a reduced fuel consumption.
 
-In essence, a turbofan emits a larger amount of air at slower rate, whilst a turbojet exhausts a smaller amount of air at a faster rate, leading to knock down effects on the efficiency of the engine.
-
-Despite this however, a disparity in efficiency is slowly reversed as the Mach number increases. This was a fundamental reason for engineers behind supersonic aircraft (such as the Concorde or Bristol type 223) opting for turbojet engines as an alternative to turbofans or turboprops. The main body of the analysis in this post is concerned with the performance of a Turbojet, in particularly the AMT Olympus Turbojet.
+ A turbofan emits a larger amount of air at slower rate, whilst a turbojet exhausts a smaller amount of air at a faster rate, leading to a knock down effect on the efficiency of the engine. Despite this however, a disparity in efficiency is slowly reversed as the Mach number increases. A fundamental reason for engineers behind supersonic aircraft (such as the Concorde or Bristol type 223) opting for turbojet engines as an alternative to turbofans or turboprops. The main body of the analysis in this post is concerned with the performance of a Turbojet, in particularly the AMT Olympus Turbojet.
 
 ## How does a Turbojet Engine Work ?
 
-<img src="/images/turbojetengine.JPG" width="440">
+<img src="/images/turbojetengine.jpg">
 
 By <a href="//commons.wikimedia.org/wiki/User:Jeff_Dahl" title="User:Jeff Dahl">Jeff Dahl</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0" title="Creative Commons Attribution-Share Alike 4.0">CC BY-SA 4.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=3235265">Link</a>
 
@@ -45,15 +43,12 @@ In the first stage, the rotation of the turbine is largely down to the impact of
 
 ### Nozzle
 
-The nozzle is the component of the engine that converts the internal energy of the working gas into propulsive force. The power setting of the engine dictates the speed to which the nozzle accelerates the air (supersonic, subsonic or transonic). Likewise, the pressure values at the entry and exit have a bearing on the exit velocity of the flow.
-
-Propelling nozzles may have a fixed geometry, or they may have variable geometry to give different exit areas to control the operation of the engine when equipped with an afterburner or a reheat system. When afterburning engines are equipped with a C-D nozzle the throat area is variable. Nozzles for supersonic flight speeds, at which high nozzle pressure ratios are generated,[2] also have variable area divergent sections.[3]
+The nozzle is the component of the engine that converts the internal energy of the working gas into propulsive force. The power setting of the engine dictates the speed to which the nozzle accelerates the air (supersonic, subsonic or transonic) as well as the pressure values at the entry and exit.
 
 
+# The investigation
 
-
-
-# Aims and Objectives
+## Aims and Objectives
 
 The principle objective of this experiment was to discern the overall performance levels of an AMT Olympus turbojet engine. This was achieved through analysing the performance and component efficiencies at various flight stages. These corresponded to fundemental s. These results were juxtaposed with those of typical larger scale gas turbine engines.
 
@@ -61,6 +56,6 @@ The principle objective of this experiment was to discern the overall performanc
 
 The test procedure was carried out in a way that would test the engine at various conditions, namely: idle power, approach power, climb power and take off/go around power.
 
-The equipment was initialised from an engine cold-start. During the first run, communication on what throttle percentages were to be targeted for each increment in ‘phase’ of flight. The ‘Test and Data Recording’ for the cold start was the same as the hot start procedure, except no test was carried out before the cold start, in addition, throttle increments were random due to the communication issue. This did not have a major impact on the results, albeit the ‘phases’ of flight were not consistent with a hot engine start.
+The equipment was initialised from an engine cold-start. During the first run, communication on what throttle percentages were to be targeted for each increment in ‘phase’ of flight. The ‘Test and Data Recording’ for the cold start was the same as the hot start procedure, no test was carried out before the cold start. in addition, throttle increments were random due to the communication issue. This did not have a major impact on the results, albeit the ‘phases’ of flight were not consistent with a hot engine start.
 
 ### Experimental results
