@@ -1,6 +1,6 @@
 ---
 
-title: "Turbojet Engine Analysis"
+title: "Jet Engine Analysis"
 date: 2018-05-26
 tags: [Aerospace Engineering]
 header:
@@ -13,7 +13,7 @@ excerpt: "Engineering Projects, Aerospace Engineering, Data Analysis"
 
 There are six main types of jet engine. The image above depicts a turbofan, employed mainly for commercial use based on its optimal efficiency levels between a Mach number of 0.8 and 0.9. A turbofan operates almost identically to a turbojet but with a portion of the air partitioned from the inlet. For the same thrust a turbofan will provide a reduced fuel consumption.
 
- A turbofan emits a larger amount of air at slower rate, whilst a turbojet exhausts a smaller amount of air at a faster rate, leading to a knock down effect on the efficiency of the engine. Despite this however, a disparity in efficiency is slowly reversed as the Mach number increases. A fundamental reason for engineers behind supersonic aircraft (such as the Concorde or Bristol type 223) opting for turbojet engines as an alternative to turbofans or turboprops. The main body of the analysis in this post is concerned with the performance of a Turbojet, in particularly the AMT Olympus Turbojet.
+A turbofan emits a larger amount of air at slower rate, whilst a turbojet exhausts a smaller amount of air at a faster rate, leading to a knock down effect on the efficiency of the engine. Despite this however, a disparity in efficiency is slowly reversed as the Mach number increases. A fundamental reason for engineers behind supersonic aircraft (such as the Concorde or Bristol type 223) opting for turbojet engines as an alternative to turbofans or turboprops. The main body of the analysis in this post is concerned with the performance of a Turbojet, in particularly the AMT Olympus Turbojet.
 
 ## How does a Turbojet Engine Work ?
 
