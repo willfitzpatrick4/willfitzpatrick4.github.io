@@ -85,16 +85,18 @@ higher temperature.
 
 To determine the change in temperature with entropy the following formula was utilised.
 
-<img src="/images/keyequation.jpg" width="300">
+<img src="/images/keyequation.JPG" width="440">
 
+<img src="/images/T-Splothotstart20%throttle.jpg" width="440">
 
-<img src="/images/T-Splothotstart20%throttle.jpg" width="300">
+<img src="/images/hotstarttempvsentropy.jpg" width="440">
 
-<img src="/images/hotstarttempvsentropy.jpg" width="300">
+<img src="/images/thrustvsrpm.JPG" width="440">
 
-<img src="/images/thrustvsrpm.jpg" width="300">
+<img src="/images/temperatureentropyplot100%throttle.JPG" width="440">
 
-<img src="/images/temperatureentropyplot100%throttle.jpg" width="300">
+<img src="/images/temperaturevsentropy.JPG" width="440">
+
 
 
 

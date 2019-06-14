@@ -56,5 +56,3 @@ inclosing the gun and apparatus was locked, ensuring all personal were protected
 
 The pressure valves on the Hopkins pressure bar controller were pre-set, the pressure values were varied
 depending on the velocity required for the excitation. The projectile was then fired and the shock response recorded from the accelerometer attached to the aluminium base plate. With each accelerometer configuration the velocity was varied at three increments. Each velocity increment was repeated to ensure anomalies in the experiment were marginalised. After data was acquired for each velocity increment the material of the bullet was altered from plastic to steel (or visa-versa) and the process was repeated.
-
-#### Experimental Results
