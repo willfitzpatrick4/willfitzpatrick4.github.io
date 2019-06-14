@@ -89,7 +89,7 @@ To determine the change in temperature with entropy the following formula was ut
 
 <img src="/images/plothotstart20throttle.JPG">
 
-<img src="/images/hotstarttempvsentropy.jpg">
+<img src="/images/hotstarttempvsentropy.JPG">
 
 <img src="/images/thrustvsrpm.JPG">
 
