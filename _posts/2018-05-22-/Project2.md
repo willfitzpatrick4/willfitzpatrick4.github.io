@@ -27,11 +27,15 @@ The components of a gas turbine engine work sequentially with each other to gene
 
 ### Inlet
 
-The process is commenced firstly with air intake through the inlet. The inlet is designed to maximise the volume of air admitted into the engine whilst ensuring directionally smooth airflow into the compressor. As the name indicates, the next stage is designed to compress the air taken in through the inlet, thereby increasing the pressure through reducing the volume to a fraction of its initial value (resulting in an increase in internal energy). The compressor is perpetually spinning due to energy transfers from the turbine to the central shaft later in the process.  
+The process is commenced firstly with air intake through the inlet. The inlet is designed to maximise the volume of air admitted into the engine whilst ensuring directionally smooth airflow into the compressor.
+
+### Compressor
+
+As the name indicates, the next stage is designed to compress the air taken in through the inlet, thereby increasing the pressure through reducing the volume to a fraction of its initial value (resulting in an increase in internal energy). The compressor is perpetually spinning due to energy transfers from the turbine to the central shaft later in the process.  
 
 <img src="/images/gaslaw.png" onerror="this.onerror=null;this.src="/images/gaslaw.png" />
 
-### Compressor
+### Combustor
 
 As compressed air leaves the compressor it is mixed with fuel and ignited in the combustor, the internal energy of the compressed air, as well as the energy gain from the combustion process, both contribute to a vast gain in energy with regards to the overall system. The products of the reaction are then exhausted through the combustion chamber and into the turbine.
 
