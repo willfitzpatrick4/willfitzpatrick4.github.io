@@ -50,3 +50,5 @@ Combining the equations yields the following:
 This is the equation of motion. Each matrix can be simplified to give the more commonly  equation.
 
 <img src="/images/equationofmotion.JPG">
+
+Where the derivatives of x are the acceleration vector, velocity vector respectively. x is the displacement vector and F is the force vector.
