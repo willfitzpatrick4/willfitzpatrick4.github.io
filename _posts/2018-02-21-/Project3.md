@@ -43,10 +43,10 @@ Likewise for the second mass.
 
 <img src="/images/equation2.JPG">
 
-Combining the equations yields the following equation.
+Combining the equations yields the following:
 
 <img src="/images/equation3.JPG">
 
-This is the equation of motion. Each matrix can be simplified to give the following equation.
+This is the equation of motion. Each matrix can be simplified to give the more commonly  equation.
 
 <img src="/images/equationofmotion.JPG">
