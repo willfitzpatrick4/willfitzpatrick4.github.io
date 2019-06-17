@@ -25,18 +25,26 @@ The vibration of the metal T beam outlined previously can be modeled using a Mul
 
 ## Equations of Motion
 
-The equations of motion are required here to outline model the vibratory response of the T beam. They can be derived through 3 separate methods: Newton’s equation of motion, Lagrange’s method or through the use of the Stiffness and Flexibility influence coefficients. Newton’s method will be outlined with a 2 Degree of Freedom model to outline the derivation.
-
-<img src="/images/massspringsystem.png">
+The equations of motion are required here to outline model the vibratory response of the T beam. They can be derived through 3 separate methods: Newton’s equation of motion, Lagrange’s method or through the use of the Stiffness and Flexibility influence coefficients. Newton’s method will be outlined with a 2 Degree of Freedom model to exhibit the consecutive stages of the derivation.
 
 Each respective mass can be isolated the forces acting are equated.
 
-<img src="/images/massspringsystem2.png">
+<img src="/images/massspringsystem.jpg">  <img src="/images/massspringsystem2.png">
 
 For the first mass newton’s second law of motion is applied with the external force f(t) applied.
 
-<img src="/images/massspringsystem2.png">
+<img src="/images/equation1.JPG">
 
 Likewise for the second mass.
 
 <img src="/images/massspringsystem3.png">
+
+<img src="/images/equation2.JPG">
+
+Combining the equations yields the following equation.
+
+<img src="/images/equation3.JPG">
+
+The equation of motion of the T beam simplified:
+
+<img src="/images/equationofmotion.JPG">
