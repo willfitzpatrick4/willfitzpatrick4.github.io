@@ -17,7 +17,9 @@ This report investigates the vibrational response of T-beam structure, which can
 
 Vibration is a topic that applies to a multitude of engineering applications. Developing an understanding through its theoretical and experimental analysis is vital. Across an abundance of industries the failure to mitigate against large energy transfers, with the correspondence of resonant frequencies, can result in the catastrophic failure/degradation of projects. An example of which is the Tacoma Narrows Suspension Bridge, in which wind induced vibrations led to oscillations at its fundamental mode and therefore the collapse of a multi-million dollar project.
 
-This Vibrations lab revolves itself around experimentally testing and analysing the vibrational response of T-beam structure. Accelerometers recorded data over 32 points of the T-beam which was mechanically excited with a hammer. T-beam was approximated as a 6 degree of freedom model to give a basis of theoretical prediction. Each row of the flexibility matrix was calculated and the mass matrix of the T-beam was constructed.  After the accumulation of data, Matlab codes were constructed to both predict and investigate the beams 6 mode shapes, Frequency Response Functions (FRF’s) and 6 natural frequencies. Comparisons with in this report will be made between the predicted and experimental data. These will be justified using fundamental engineering principles that will help to validate/ invalidate the experimental data that was acquired. These engineering principles include the derivation of the equations of motion, the load sharing approach employed to construct the mass matrix, torsional effects present at the extremities of the beam and the eigenvalue problem used to evaluate the natural frequencies. These concepts will be investigated further in the sections to follow.
+This Vibrations lab revolves itself around experimentally testing and analysing the vibrational response of T-beam structure. Accelerometers recorded data over 32 points of the T-beam which was mechanically excited with a hammer. T-beam was approximated as a 6 degree of freedom model to give a basis of theoretical prediction. Each row of the flexibility matrix was calculated and the mass matrix of the T-beam was constructed.  After the accumulation of data, Matlab codes were constructed to both predict and investigate the beams 6 mode shapes, Frequency Response Functions (FRF’s) and 6 natural frequencies.
+
+Comparisons with in this report will be made between the predicted and experimental data. These will be justified using fundamental engineering principles that will help to validate/ invalidate the experimental data that was acquired. These engineering principles include the derivation of the equations of motion, the load sharing approach employed to construct the mass matrix, torsional effects present at the extremities of the beam and the eigenvalue problem used to evaluate the natural frequencies. These concepts will be investigated further in the sections to follow.
 
 # Theory
 
@@ -45,6 +47,6 @@ Combining the equations yields the following equation.
 
 <img src="/images/equation3.JPG">
 
-The equation of motion of the T beam simplified:
+This is the equation of motion. Each matrix can be simplified to give the following equation.
 
 <img src="/images/equationofmotion.JPG">
