@@ -33,9 +33,9 @@ Each respective mass can be isolated the forces acting are equated.
 
 <img src="/images/massspringsystem2.png">
 
-For the first mass newton’s second law of motion is applied with the external force f_1 (t) applied.
+For the first mass newton’s second law of motion is applied with the external force f(t) applied.
 
-m_1 x ̈_1+〖(c〗_1+c_2)x ̇_1+(k_1+k_2 ) x_1-k_2 x_2=f_1 (x)
+<img src="/images/massspringsystem2.png">
 
 Likewise for the second mass.
 
