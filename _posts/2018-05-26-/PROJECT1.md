@@ -111,12 +111,7 @@ Increasing the velocity to 60 m/s gave rise to the optimal SRS response.
 
 ## Configuration Comparison
 
-Each of the three configurations were evaluated at 35 m/s. The first configuration detected
-an SRS response with a knee frequency above the upper tolerance bands, whereas the third
-configuration displayed a curve below the lower tolerance band. At 35 m/s the 2nd
-configuration displayed the most optimal SRS response. The other two configurations
-require tuning of the SRS response through incremental adjustments of the velocity or a
-change in projectile material.
+Each of the three configurations were evaluated at 35 m/s. The first configuration detected an SRS response with a knee frequency above the upper tolerance bands, whereas the third configuration displayed a curve below the lower tolerance band. At 35 m/s the 2nd configuration displayed the most optimal SRS response. The other two configurations require tuning of the SRS response through incremental adjustments of the velocity or a change in projectile material.
 
 Comparing the SRS curves:
 
