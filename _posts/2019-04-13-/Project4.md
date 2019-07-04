@@ -65,9 +65,13 @@ GDP = pd.read_csv('world_bank.csv', skiprows=4)
 
 ```
 
+<img src="/images/2nddataset.JPG">
+
 Countries were then renamed to match the first dataset and again the index was set as the country.
 
 The NaN cells were then dropped from the dataset.
+
+
 
 ```python
 
@@ -92,3 +96,7 @@ ScimEn = ScimEn.set_index(['Country'])
 ScimEn = ScimEn[(ScimEn['Rank'] < 16)]
 
 ```
+
+With the top 15 countries as follows:
+
+<img src="/images/thetop15rankedfinalset.JPG">
