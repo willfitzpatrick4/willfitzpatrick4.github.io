@@ -35,7 +35,9 @@ The first 10 countries in the list were as follows:
 
 <img src="/images/dataset1first10countries.JPG">
 
-The columns were then renamed to the relevant subcategories, the country column was set as the index, the headings were renamed to the relevant subcategories and the redundant columns were deleted.
+The columns were then renamed to the relevant subcategories and the country column was set as the index
+
+The headings were then renamed to the relevant subcategories and the redundant columns were deleted.
 
 ```python
 
@@ -63,7 +65,9 @@ GDP = pd.read_csv('world_bank.csv', skiprows=4)
 
 ```
 
-Countries were then renamed to match the first dataset, the index was set as the country and the NaN cells were dropped from the dataset.
+Countries were then renamed to match the first dataset and again the index was set as the country.
+
+The NaN cells were then dropped from the dataset.
 
 ```python
 
