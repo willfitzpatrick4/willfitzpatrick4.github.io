@@ -21,6 +21,8 @@ The third contains records of the Sciamgo Journal and Country Rank for Energy En
 
 ## Reorganisation and Cleaning
 
+### Dataset 1
+
 The first dataset was imported and the header and footer of the file were removed.  
 
 ```python
@@ -34,6 +36,8 @@ Energy = pd.read_excel('Energy Indicators.xls', skiprows=17, skipfooter=38)
 The first 10 countries in the list were as follows:
 
 <img src="/images/dataset1first10countries.JPG">
+
+To achieve this
 
 The columns were then renamed to the relevant subcategories and the country column was set as the index
 
@@ -54,6 +58,9 @@ Next the data was cleaned to ensure the country names were coherent to the other
 Energy = Energy.rename({"Switzerland17": "Switzerland", "Bolivia (Plurinational State of)": "Bolivia", "The former Yugoslav Republic of Macedonia": "Republic of North Macedonia", "Sint Maarten (Dutch part)": "Sint Maarten (Dutch part)", "Micronesia (Federated States of)": "Micronesia", "Falkland Islands (Malvinas)": "Falkland Islands", "Vene""Republic of Korea": "South Korea", "United States of America20": "United States", "United Kingdom of Great Britain and Northern Ireland19": "United Kingdom", "Iran (Islamic Republic of)": "Iran", "Venezuela (Bolivarian Republic of)": "Venezuela", "Ukraine18": "Ukraine",  "China, Hong Kong Special Administrative Region": "Hong Kong"})
 
 ```
+
+### Dataset 2
+
 The second dataset from the world bank was imported containing international GDP levels.
 
 Likewise as with the first set, the header was bypassed.
@@ -80,6 +87,9 @@ GDP = GDP.set_index(['Country Name'])
 GDP = GDP.dropna()
 
 ```
+
+### Dataset 3
+
 The last dataset containing published records of countries' contribution to renewable and sustainable projects was then imported.
 
 ```python
