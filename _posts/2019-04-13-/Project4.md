@@ -1,6 +1,6 @@
 ---
 
-Title: "Cleaning and Merging of International Energy Datasets"
+title: "Cleaning and Merging of International Energy Datasets"
 date: 2018-02-21
 tags: [Data Science]
 header:
@@ -16,7 +16,6 @@ This project looked at 3 publically available datasets associated with internati
 ## Reorganisation and Cleaning
 
 The first dataset was imported and the header and footer of the file were removed.  
-
 
 ```python
 
