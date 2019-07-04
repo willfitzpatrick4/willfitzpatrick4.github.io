@@ -1,6 +1,6 @@
 ---
 
-title: "Cleaning and Merging of International Energy Datasets"
+title: "Cleaning/Merging of International Energy Datasets"
 date: 2018-02-21
 tags: [Data Science]
 header:
@@ -11,7 +11,13 @@ excerpt: "Data Science, , Data Analysis"
 
 # Introduction
 
-This project looked at 3 publically available datasets associated with international energy consumption. The first dataset contains a list of indicators for energy supply and renewable electricity production from the United Nations from the year 2013. The second dataset is an international record from the World Bank containing countries' GDP from 1960 to 2015. The third contains records of the Sciamgo Journal and Country Rank for Energy Engineering and Power Technology this ranks countries based on their journal contributions in areas mentioned in the previous sets.
+This project looked at 3 publically available datasets associated with international energy consumption.
+
+The first dataset contains a list of indicators for energy supply and renewable electricity production from the United Nations from the year 2013.
+
+The second dataset is an international record from the World Bank containing countries' GDP from 1960 to 2015.
+
+The third contains records of the Sciamgo Journal and Country Rank for Energy Engineering and Power Technology this ranks countries based on their journal contributions in areas mentioned in the previous sets.
 
 ## Reorganisation and Cleaning
 
@@ -41,10 +47,21 @@ Next the data was cleaned to ensure the country names were coherent to the other
 Energy = Energy.rename({"Switzerland17": "Switzerland", "Bolivia (Plurinational State of)": "Bolivia", "The former Yugoslav Republic of Macedonia": "Republic of North Macedonia", "Sint Maarten (Dutch part)": "Sint Maarten (Dutch part)", "Micronesia (Federated States of)": "Micronesia", "Falkland Islands (Malvinas)": "Falkland Islands", "Vene""Republic of Korea": "South Korea", "United States of America20": "United States", "United Kingdom of Great Britain and Northern Ireland19": "United Kingdom", "Iran (Islamic Republic of)": "Iran", "Venezuela (Bolivarian Republic of)": "Venezuela", "Ukraine18": "Ukraine",  "China, Hong Kong Special Administrative Region": "Hong Kong"})
 
 ```
+Likewise the second data set was imported and the header was bypassed.
+
+```python
 
 import pandas as pd
 GDP = pd.read_csv('world_bank.csv', skiprows=4)
+
+```
+
+Countries were then renamed to match the first dataset, the index was set as the country and the NaN cells were dropped from the dataset.
+
+```python
+
 GDP = GDP.rename({"Hong Kong SAR, China": "Hong Kong", "Iran, Islamic Rep.": "Iran", "Korea, Rep.": "South Korea"})
 GDP = GDP.set_index(['Country Name'])
 GDP = GDP.dropna()
-GDP
+
+```
