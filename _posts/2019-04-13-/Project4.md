@@ -37,7 +37,7 @@ The first 10 countries in the list were as follows:
 
 <img src="/images/dataset1first10countries.JPG">
 
-To achieve this
+To achieve this extra lines of code were implemented.
 
 The columns were then renamed to the relevant subcategories and the country column was set as the index
 
