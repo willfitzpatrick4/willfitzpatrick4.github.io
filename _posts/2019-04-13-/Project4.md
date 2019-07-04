@@ -5,7 +5,7 @@ date: 2018-02-21
 tags: [Data Science]
 header:
   image: "/images/worldwideenergy.jpg"
-excerpt: "Data Science, , Data Analysis"
+excerpt: "Data Science, Data Cleaning , Data Analysis"
 
 ---
 
@@ -33,7 +33,7 @@ Energy = pd.read_excel('Energy Indicators.xls', skiprows=17, skipfooter=38)
 ```
 The first 10 countries in the list were as follows:
 
-<img src="/images/dataset1first10countries.jpg" width="300">
+<img src="/images/dataset1first10countries.jpg">
 
 The columns were then renamed to the relevant subcategories, the country column was set as the index, the headings were renamed to the relevant subcategories and the redundant columns were deleted.
 
@@ -70,11 +70,18 @@ GDP = GDP.set_index(['Country Name'])
 GDP = GDP.dropna()
 
 ```
-The last dataset containing published records of countries' contribution to renewable and sustainable projects was then imported. The country column was indexed and the top 15 ranked countries queried.
+The last dataset containing published records of countries' contribution to renewable and sustainable projects was then imported.
 
 ```python
 
 ScimEn = pd.read_excel('scimagojr-3.xlsx')
+
+```
+
+The country column was indexed and the top 15 ranked countries queried.
+
+```python
+
 ScimEn = ScimEn.set_index(['Country'])
 ScimEn = ScimEn[(ScimEn['Rank'] < 16)]
 
