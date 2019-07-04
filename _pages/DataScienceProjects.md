@@ -2,11 +2,10 @@
 
 layout: archive
 permalink: /data-science-projects/
-title: "Engineering Projects posts by Tags"
+title: "Data Science Projects by Tags"
 header:
   images: "/images/datascienceprojects.jpg"
 author_profile: true
-
 
 ---
 
