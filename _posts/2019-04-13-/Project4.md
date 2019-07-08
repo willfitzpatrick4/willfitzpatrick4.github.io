@@ -113,9 +113,9 @@ With the first 15 elements of the Scimajr dataset as follows:
 
 ## Merging the Data Sets
 
-To execute beneficial analysis on the data it was necessary to merge all three of the sets, this was achieved using pandas merge function sequentially.
+To execute beneficial analysis on the data it was necessary to merge all three of the sets to yield data cohesive for all three of the files, this was achieved using pandas merge function sequentially.
 
-The energy dataset was merged to output the intersection of both the datasets (using pandas pd.merge and setting 'how' to 'inner').
+Firstly the energy dataset was merged to output the intersection of both the datasets (using pandas pd.merge and setting 'how' to 'inner') the 'Country' index was.
 
 This was then repeated. The first merged set was combined with the scimajr set to yield a combination of all three sets.
 
@@ -139,3 +139,67 @@ A1 = Combined[(Combined['Rank'] < 16)]
 The first 15 countries of the merged set, in order of rank, were as follows:
 
 <img src="/images/finalmergedset.JPG">
+
+# Data Investigation
+
+## Q1 How Many Countries Were lost in the Creation of the New Data Set?
+
+This can be calculated by creating a new set with the union of all the data (by using 'how' and 'outer' sequentially).
+
+The length of this set is calculated, and the length of the 1st merged set (containing the intersection of all three datasets) is subtracted.
+
+```HTML
+
+<svg width="800" height="300">
+  <circle cx="150" cy="180" r="80" fill-opacity="0.2" stroke="black" stroke-width="2" fill="blue" />
+  <circle cx="200" cy="100" r="80" fill-opacity="0.2" stroke="black" stroke-width="2" fill="red" />
+  <circle cx="100" cy="100" r="80" fill-opacity="0.2" stroke="black" stroke-width="2" fill="green" />
+  <line x1="150" y1="125" x2="300" y2="150" stroke="black" stroke-width="2" fill="black" stroke-dasharray="5,3"/>
+  <text  x="300" y="165" font-family="Verdana" font-size="35">Everything but this!</text>
+</svg>
+
+```
+
+``` python
+Merged2 = pd.merge(Energy, GDP, how='outer', left_index=True, right_index=True)
+Merged3 = pd.merge(Merged2, ScimEn, how='outer', left_index=True, right_index=True)
+
+Merged4 = pd.merge(GDP, Energy, how='inner', left_index=True, right_index=True)
+Merged5 = pd.merge(Merged4, ScimEn, how='inner', left_index=True, right_index=True)
+
+A2 = len(Merged3)-len(Merged5)
+
+```
+
+Outputting a value of 173.
+
+## Q2 What is the Average GDP over the past 10 Years for each country?
+
+Here it was necessary to output a panda series including the average GDP of the 15 countries over the last 10 years.
+
+Within Iran's '2015' GDP data there existed a NaN output. To exclude this from the calculations the median GDP (based on other values) was taken for '2015' and the mean GDP was calculated.
+
+```python
+Top15 = A1
+Col = ['2015']
+Top15[Col] = Top15[Col].fillna(Top15[Col].median())
+```
+
+The necessary calculation was then computed and outputted to a new column.
+
+This was then converted to a pandas series and ordered from highest to lowest.
+
+```python
+Top15['avgGDP'] = ((Top15['2006'] + Top15['2007'] + Top15['2008'] + Top15['2009'] + Top15['2010'] + Top15['2011'] + Top15['2012'] + Top15['2013'] + Top15['2014'] + Top15['2015']) / 10)
+
+[columns_to_keep] = ['avgGDP']
+
+A3 = Top15[columns_to_keep]
+A3 = pd.Series(Top15['avgGDP'])
+
+A3.sort('avgGDP', ascending=False)
+```
+Outputting the following series:
+
+
+<img src="/images/averageGDPover10years.JPG">
