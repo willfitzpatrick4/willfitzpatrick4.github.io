@@ -3,7 +3,7 @@
 title: "About"
 permalink: /about/
 header:
-  image: "/images/london.jpg"
+  image: "/images/planecity.jpg"
 
 ---
 
@@ -13,6 +13,6 @@ Moving on from a bachelors degree I've attained many computational based skills 
 
 Navigate through some of the different engineering projects I've carried out above,
 
-Linkedin, github and contact details are on the side-bar for any inquiries or for further investigation. 
+Linkedin, github and contact details are on the side-bar for any inquiries or for further investigation.
 
 ---

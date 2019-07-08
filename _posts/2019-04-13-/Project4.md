@@ -69,7 +69,7 @@ Likewise as with the first set:
 
 - The country column was set as the index
 
-- NaN cells were then dropped from the dataset 
+- NaN cells were then dropped from the dataset
 
 ```python
 
@@ -82,6 +82,8 @@ GDP = GDP.dropna()
 
 ```
 
+Outputting the first 5 elements of the GDP data set:
+
 <img src="/images/2nddataset.JPG">
 
 
@@ -89,9 +91,10 @@ GDP = GDP.dropna()
 
 The last dataset containing published records of countries' contribution to renewable and sustainable projects was then imported.
 
-It was then reorganised in the following way:
+It was then reorganised and filtered in the following way:
 
 - The country column was indexed
+
 - The top 15 ranked countries were then queried
 
 
@@ -103,5 +106,27 @@ ScimEn = ScimEn[(ScimEn['Rank'] < 16)]
 
 ```
 
+With the first 15 elements of the Scimajr dataset as follows:
 
 <img src="/images/thetop15rankedfinalset.JPG">
+
+
+## Merging the Data Sets
+
+To execute beneficial analysis on the data it was necessary to merge all three of the sets, this was achieved using pandas merge function sequentially.
+
+
+``` python
+Merged = pd.merge(Energy, GDP, how='inner', left_index=True, right_index=True)
+
+secondMerged = pd.merge(Merged, ScimEn, how='inner', left_index=True, right_index=True)
+
+columns_to_include = ['Rank', 'Documents', 'Citable documents', 'Citations', 'Self-citations',
+'Citations per document', 'H index', 'Energy Supply', 'Energy Supply per Capita', '%Renewable', '2006', '2007', '2008', '2009',
+'2010', '2011', '2012', '2013', '2014', '2015']
+
+Combined = secondMerged[columns_to_include]
+Combined = Combined.rename(index=str, columns={' ': 'Country'})
+Combined = Combined[(Combined['Rank'] < 16)]
+A1 = Combined[(Combined['Rank'] < 16)]
+```
