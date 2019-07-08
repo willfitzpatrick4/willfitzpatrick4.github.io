@@ -150,8 +150,6 @@ This can be calculated by creating a new set with the union of all the data (by 
 
 The length of this set is calculated, and the length of the 1st merged set (containing the intersection of all three datasets) is subtracted.
 
-```HTML
-
 <svg width="800" height="300">
   <circle cx="150" cy="180" r="80" fill-opacity="0.2" stroke="black" stroke-width="2" fill="blue" />
   <circle cx="200" cy="100" r="80" fill-opacity="0.2" stroke="black" stroke-width="2" fill="red" />
@@ -159,8 +157,6 @@ The length of this set is calculated, and the length of the 1st merged set (cont
   <line x1="150" y1="125" x2="300" y2="150" stroke="black" stroke-width="2" fill="black" stroke-dasharray="5,3"/>
   <text  x="300" y="165" font-family="Verdana" font-size="35">Everything but this!</text>
 </svg>
-
-```
 
 ``` python
 Merged2 = pd.merge(Energy, GDP, how='outer', left_index=True, right_index=True)
