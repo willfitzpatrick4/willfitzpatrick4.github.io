@@ -115,7 +115,9 @@ With the first 15 elements of the Scimajr dataset as follows:
 
 To execute beneficial analysis on the data it was necessary to merge all three of the sets, this was achieved using pandas merge function sequentially.
 
+The energy dataset was merged to output the intersection of both the datasets (using pandas pd.merge and setting 'how' to 'inner').
 
+This was then repeated. The first merged set was combined with the scimajr set to yield a combination of all three sets.
 
 
 ``` python
@@ -131,4 +133,9 @@ Combined = secondMerged[columns_to_include]
 Combined = Combined.rename(index=str, columns={' ': 'Country'})
 Combined = Combined[(Combined['Rank'] < 16)]
 A1 = Combined[(Combined['Rank'] < 16)]
+
 ```
+
+The first 15 countries of the merged set, in order of rank, were as follows:
+
+<img src="/images/finalmergedset.JPG">
