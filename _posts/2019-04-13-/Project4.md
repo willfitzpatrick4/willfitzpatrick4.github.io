@@ -144,7 +144,7 @@ The first 15 countries of the merged set, in order of rank, were as follows:
 
 # Data Investigation
 
-## Q1 How Many Countries Were lost in the Creation of the New Data Set?
+## How Many Countries Were lost in the Creation of the New Data Set?
 
 This can be calculated by creating a new set with the union of all the data (by using 'how' and 'outer' sequentially).
 
@@ -263,7 +263,7 @@ MaxList
 
 Outputting Brazil, with 69%
 
-### If a new column is created with a ratio of Self-citations to Total-citations, what is the maximum value for this new column, and what country has the highest ratio?
+### If a new column is created with a ratio of Self-citations to Total-citations, what is the maximum value for this new column and what country has the highest ratio?
 
 ```python
 Top15['Ratio of Self to Total'] = Top15['Self-citations'] / Top15['Citations']
