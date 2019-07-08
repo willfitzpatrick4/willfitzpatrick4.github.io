@@ -1,6 +1,6 @@
 ---
 
-title: "Cleaning/Merging of International Energy Datasets"
+title: "Investigating International Energy Datasets"
 date: 2018-02-21
 tags: [Data Science]
 header:
@@ -114,6 +114,8 @@ With the first 15 elements of the Scimajr dataset as follows:
 ## Merging the Data Sets
 
 To execute beneficial analysis on the data it was necessary to merge all three of the sets, this was achieved using pandas merge function sequentially.
+
+
 
 
 ``` python
