@@ -238,3 +238,83 @@ A4 = Top15.loc['United Kingdom']
 The difference was found to be $299,285,784,765.
 
 ## What is the Mean Energy Supply per Capita?
+
+```python
+Total = Top15['Energy Supply per Capita'].sum()
+
+MeanEnergy = Total / 15
+
+MeanEnergy
+
+```
+Which yielded a value of 157.6 Gigajoules.
+
+## Which country has the maximum '% Renewable' and what is the percentage?
+
+Here the argmax() function is used to determine the index value with the highest Value.
+
+```python
+
+MaxEnergy = Top15['% Renewable'].argmax()    
+
+MEV = max(Top15['% Renewable'])
+
+MaxList = [MaxEnergy, MEV]
+
+MaxList
+
+```
+
+Outputting Brazil, with 69%
+
+### If a new column is created with a ratio of Self-citations to Total-citations, what is the maximum value for this new column, and what country has the highest ratio?
+
+```python
+Top15['Ratio of Self to Total'] = Top15['Self-citations'] / Top15['Citations']
+MaxRatio = Top15['Ratio of Self to Total'].argmax()
+MRV = max(Top15['Ratio of Self to Total'])
+A7 = [MaxRatio, MRV]
+```
+
+Outputting a tuple with a string value of China with a value of 0.689.
+
+# After creating a column that estimates the population using Energy Supply and Energy Supply per capita.
+
+## What is the third most populous country according to this estimate?
+
+After converting the data type to float a new column was created with a population estimate.
+
+The values were sorted from highest to lowest, and the first two values were dropped.
+
+
+```python
+Top15 = Top15.astype(np.float64) %Converting data type to float
+
+Top15['Population Estimate'] = Top15['Energy Supply'] / Top15['Energy Supply per Capita']
+
+Sorted = Top15.sort_values(by=['Population Estimate'], ascending=False)
+
+[columns_to_keep] = ['Population Estimate']
+
+A8 = Sorted[columns_to_keep]
+
+A8 = A8.drop(["China", "India"])
+
+A8 = A8.argmax()
+
+```
+Outputting a string value of 'United States'.
+
+## Create a new column with a 1 if the country's % Renewable value is at or above the median for all countries in the top 15, and a 0 if the country's % Renewable value is below the median.
+
+```python
+
+Top15['HighRenew']=np.where(Top15['% Renewable']>=Top15['% Renewable'].median(),1,0)
+
+HighRenew=Top15.sort_values(by='Rank')['HighRenew']
+
+```
+
+Outputting the following series:
+
+<img src="/images/1and0list.JPG">
