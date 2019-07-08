@@ -19,6 +19,8 @@ The second dataset is an international record from the World Bank containing cou
 
 The third contains records of the Sciamgo Journal and Country Rank for Energy Engineering and Power Technology. This ranks countries based on their journal contributions with regards to areas mentioned in the previous sets.
 
+After the data was organised and cleaned, I carried out an investigation of the data by answering questions regarding the datasets.
+
 ## Reorganisation and Cleaning
 
 ### Dataset 1
@@ -173,9 +175,11 @@ A2 = len(Merged3)-len(Merged5)
 
 Outputting a value of 173.
 
-## Q2 What is the Average GDP over the past 10 Years for each country?
+## What is the Average GDP over the past 10 Years for each country?
 
 Here it was necessary to output a panda series including the average GDP of the 15 countries over the last 10 years.
+
+To achieve this, a new column was created with each of the countries average GDP over the last 10 years.
 
 Within Iran's '2015' GDP data there existed a NaN output. To exclude this from the calculations the median GDP (based on other values) was taken for '2015' and the mean GDP was calculated.
 
@@ -192,7 +196,7 @@ This was then converted to a pandas series and ordered from highest to lowest.
 ```python
 Top15['avgGDP'] = ((Top15['2006'] + Top15['2007'] + Top15['2008'] + Top15['2009'] + Top15['2010'] + Top15['2011'] + Top15['2012'] + Top15['2013'] + Top15['2014'] + Top15['2015']) / 10)
 
-[columns_to_keep] = ['avgGDP']
+[columns_to_keep] = ['avgGDP'] %Eliminating all columns aside from the avgGDP
 
 A3 = Top15[columns_to_keep]
 A3 = pd.Series(Top15['avgGDP'])
@@ -203,3 +207,34 @@ Outputting the following series:
 
 
 <img src="/images/averageGDPover10years.JPG">
+
+## For the country with the 6th largest GDP, how much did the GDP change over 10 years?
+
+To find this it again necessary to create a new column. This time its necessary to find the minimum and maximum value for the 6th country (which appeared to be the United Kingdom from the previous question) and subtract the maximum value from the minimum.
+
+This was done for all of the countries and the "loc" function was used to isolate the UK.
+
+
+```python
+
+Col = ['2015']
+Top15[Col] = Top15[Col].fillna(Top15[Col].median())
+
+Top15 = Top15[['2006', '2007', '2008', '2009', '2010', '2011', '2012', '2013', '2014', '2015']].astype(np.float64)
+
+Top15['max'] = Top15[['2006', '2007', '2008', '2009', '2010', '2011', '2012', '2013', '2014', '2015']].apply(max, axis=1)
+Top15['min'] = Top15[['2006', '2007', '2008', '2009', '2010', '2011', '2012', '2013', '2014', '2015']].apply(min, axis=1)
+
+Top15['absolute_difference'] = abs(Top15['max']-Top15['min'])
+
+[columns_to_include] = ['absolute_difference']
+
+Top15 = Top15['absolute_difference']
+
+A4 = Top15.loc['United Kingdom']
+
+```
+
+The difference was found to be $299,285,784,765.
+
+## What is the Mean Energy Supply per Capita?
