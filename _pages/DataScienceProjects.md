@@ -1,7 +1,7 @@
 ---
 
 layout: archive
-permalink: /data-science-projects/
+permalink: /datascience-projects/
 title: "Data Science Projects by Tags"
 header:
   images: "/images/datascienceprojects.jpg"
