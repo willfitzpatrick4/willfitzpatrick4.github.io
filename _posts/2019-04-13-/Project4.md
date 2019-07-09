@@ -274,7 +274,7 @@ A7 = [MaxRatio, MRV]
 
 Outputting a tuple with a string value of China with a value of 0.689.
 
-# After creating a column that estimates the population using Energy Supply and Energy Supply per capita.
+## Estimate the population of all of the countries.
 
 ## What is the third most populous country according to this estimate?
 
@@ -301,7 +301,7 @@ A8 = A8.argmax()
 ```
 Outputting a string value of 'United States'.
 
-## Create a new column with a 1 if the country's % Renewable value is at or above the median for all countries in the top 15, and a 0 if the country's % Renewable value is below the median.
+### Create a column with a binary representation of whether the countries % Reneable value is above or below the median value
 
 ```python
 
