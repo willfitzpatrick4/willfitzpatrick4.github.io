@@ -13,13 +13,10 @@ excerpt: "Data Science, Data Cleaning , Data Analysis"
 
 This project looked at 3 publically available datasets associated with international energy consumption.
 
-The first dataset contains a list of indicators for energy supply and renewable electricity production from the United Nations from the year 2013.
-
-The second dataset is an international record from the World Bank containing countries' GDP from 1960 to 2015.
-
+The first dataset contains a list of indicators for energy supply and renewable electricity production from the United Nations from the year 2013.The second dataset is an international record from the World Bank containing countries' GDP from 1960 to 2015.
 The third contains records of the Sciamgo Journal and Country Rank for Energy Engineering and Power Technology. This ranks countries based on their journal contributions with regards to areas mentioned in the previous sets.
 
-After the data was organised and cleaned, I carried out an investigation of the data by answering questions regarding the datasets.
+After the data was organised and cleaned, through the construction and answering of questions regarding the datasets I was able to investigate the data in greater detail and answer key questions regarding energy supply, renewable energy usage and GDP levels internationally. 
 
 ## Reorganisation and Cleaning
 
@@ -35,9 +32,15 @@ import numpy as np
 Energy = pd.read_excel('Energy Indicators.xls', skiprows=17, skipfooter=38)
 
 ```
+
+
 The first 10 countries in the list were as follows:
 
+
+
 <img src="/images/dataset1first10countries.JPG">
+
+
 
 To achieve this extra lines of code were implemented:
 
@@ -56,6 +59,7 @@ Energy = Energy.drop(Energy.columns[[0, 1]], axis=1)
 
 ```
 
+
 - Next the data was cleaned to ensure the country names were coherent to the other datasets.
 
 
@@ -73,6 +77,7 @@ Likewise as with the first set:
 
 - NaN cells were then dropped from the dataset
 
+
 ```python
 
 import pandas as pd
@@ -84,7 +89,10 @@ GDP = GDP.dropna()
 
 ```
 
+
 Outputting the first 5 elements of the GDP data set:
+
+
 
 <img src="/images/2nddataset.JPG">
 
@@ -140,7 +148,10 @@ A1 = Combined[(Combined['Rank'] < 16)]
 
 The first 15 countries of the merged set, in order of rank, were as follows:
 
+
 <img src="/images/finalmergedset.JPG">
+
+
 
 # Data Investigation
 
@@ -199,10 +210,14 @@ A3 = pd.Series(Top15['avgGDP'])
 
 A3.sort('avgGDP', ascending=False)
 ```
+
+
 Outputting the following series:
 
 
 <img src="/images/averageGDPover10years.JPG">
+
+
 
 ## For the country with the 6th largest GDP, how much did the GDP change over 10 years?
 
@@ -301,7 +316,7 @@ A8 = A8.argmax()
 ```
 Outputting a string value of 'United States'.
 
-### Create a column with a binary representation of whether the countries % Reneable value is above or below the median value
+## Create a list with a binary representation indicating if the countries '% Renewable' value is above or below the median value.
 
 ```python
 
