@@ -16,7 +16,7 @@ This project looked at 3 publically available datasets associated with internati
 The first dataset contains a list of indicators for energy supply and renewable electricity production from the United Nations from the year 2013.The second dataset is an international record from the World Bank containing countries' GDP from 1960 to 2015.
 The third contains records of the Sciamgo Journal and Country Rank for Energy Engineering and Power Technology. This ranks countries based on their journal contributions with regards to areas mentioned in the previous sets.
 
-After the data was organised and cleaned, through the construction and answering of questions regarding the datasets I was able to investigate the data in greater detail and answer key questions regarding energy supply, renewable energy usage and GDP levels internationally. 
+After the data was organised and cleaned, through the construction and answering of questions regarding the datasets I was able to investigate the data in greater detail and answer key questions regarding energy supply, renewable energy usage and GDP levels internationally.
 
 ## Reorganisation and Cleaning
 
@@ -50,12 +50,16 @@ To achieve this extra lines of code were implemented:
 
 - The columns were  renamed to the relevant subcategories and the redundant columns were deleted
 
+- The Energy supply was converted from gigajoules and the data type converted to float64
 
 ```python
 
 Energy = Energy.rename(index=str, columns={"Unnamed: 2": "Countries", "Petajoules": "Energy Supply", "Gigajoules": "Energy Supply per Capita", "%": "%Renewable"})
+Energy['Energy Supply'] = Energy['Energy Supply'].apply(lambda x: x*1000000000)
 Energy = Energy.set_index(['Countries'])
 Energy = Energy.drop(Energy.columns[[0, 1]], axis=1)
+Energy['Energy Supply'].astype('float64')
+
 
 ```
 
@@ -228,15 +232,13 @@ This was done for all of the countries and the "loc" function was used to isolat
 
 ```python
 
+Top15 = answer_one()
 Col = ['2015']
 Top15[Col] = Top15[Col].fillna(Top15[Col].median())
 
 Top15 = Top15[['2006', '2007', '2008', '2009', '2010', '2011', '2012', '2013', '2014', '2015']].astype(np.float64)
 
-Top15['max'] = Top15[['2006', '2007', '2008', '2009', '2010', '2011', '2012', '2013', '2014', '2015']].apply(max, axis=1)
-Top15['min'] = Top15[['2006', '2007', '2008', '2009', '2010', '2011', '2012', '2013', '2014', '2015']].apply(min, axis=1)
-
-Top15['absolute_difference'] = abs(Top15['max']-Top15['min'])
+Top15['absolute_difference'] = abs(Top15['2015']-Top15['2006'])
 
 [columns_to_include] = ['absolute_difference']
 
@@ -255,8 +257,7 @@ Total = Top15['Energy Supply per Capita'].sum()
 
 MeanEnergy = Total / 15
 
-MeanEnergy
-
+return MeanEnergy
 ```
 Which yielded a value of 157.6 Gigajoules.
 
@@ -266,25 +267,27 @@ Here the argmax() function is used to determine the index value with the highest
 
 ```python
 
-MaxEnergy = Top15['% Renewable'].argmax()    
+MaxEnergy = Top15['% Renewable'].argmax()
 
 MEV = max(Top15['% Renewable'])
 
 MaxList = [MaxEnergy, MEV]
 
-MaxList
+A6 = tuple(MaxList)
 
 ```
 
 Outputting Brazil, with 69%
 
-### If a new column is created with a ratio of Self-citations to Total-citations, what is the maximum value for this new column and what country has the highest ratio?
+### If a new column is created with a ratio of Self-citations to Total-citations, what is the maximum value for this new column and what country has the highest ratio? (must output a tuple)
 
 ```python
+Top15 = answer_one()
 Top15['Ratio of Self to Total'] = Top15['Self-citations'] / Top15['Citations']
 MaxRatio = Top15['Ratio of Self to Total'].argmax()
 MRV = max(Top15['Ratio of Self to Total'])
-A7 = [MaxRatio, MRV]
+A7 = tuple([MaxRatio, MRV])
+A7
 ```
 
 Outputting a tuple with a string value of China with a value of 0.689.
