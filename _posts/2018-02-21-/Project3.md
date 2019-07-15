@@ -52,3 +52,39 @@ This is the equation of motion. Each matrix can be simplified to give the more c
 <img src="/images/equationofmotion.JPG">
 
 Where the derivatives of x are the acceleration vector, velocity vector respectively. x is the displacement vector and F is the force vector.
+
+## The Flexibility Matrix [K]
+
+The viscous damping and force vector are set to zero within the T beam analysis. After inserting the mass matrix [M] for the beam, the stiffness matrix [k] must be obtained. The term k(ij) represents the force at point i due to a unit displacement at point j with all other points fixed.  This term is the inverse of the “flexibility influence coefficient”.
+
+[a] ([k]=〖[a]〗^(-1))
+
+A term that eludes to the deflection at point i due to a unit force acting at point j (where the unit force is the only force acting). The flexibility coefficient is therefore calculated.
+
+The technique adopted in calculating the flexibility coefficient varied between students. The most predominantly employed was the beam myosotis table.
+
+<img src="/images/flex.png">
+
+## The Mass Matrix [M]
+
+The mass matrix of the T beam was determined through attributing the beam into 6 points of mass, each with its individual degree of freedom. A technique described as the discritisation of a continuous system (or distributed parameter system).
+
+After acquiring the density and respective areas for the beams the mass was assigned into its components necessary to form the matrix. A nodal point is assigned to the joint of the beam but is neglected in the formation of the mass matrix.
+
+The nodal point mass distribution for the T beam is represented in the following two diagrams.
+
+<img src="/images/massmatrix.JPG"> <img src="/images/schematic.png">
+
+The mass breakdown for the specific T beam in question is as follows:
+
+<img src="/images/datamassbreakdown.JPG">
+
+The mass of beam A was divided into 4 sub-sections, a quarter of the mass was attributed to node 1, 2 and 3.  An eighth of the remaining mass was located at the support point of the cantilever ( m_(0 )) and the other eighth was assigned to the node point 4 (at an intersection with point B).
+
+Likewise beam B was divided into 4 sub-sections.
+
+One half of the mass was attributed to node point 4 (in addition to the contribution from A) and the remaining quarters assigned to nodes 5 & 6 at the extremities.
+
+The overall Mass matrix is given as:
+
+<img src="/images/massmatrix.png">   <img src="/images/massmatrix2.JPG">
