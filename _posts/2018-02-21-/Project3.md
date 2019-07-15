@@ -88,3 +88,41 @@ One half of the mass was attributed to node point 4 (in addition to the contribu
 The overall Mass matrix is given as:
 
 <img src="/images/massmatrix.png">   <img src="/images/massmatrix2.JPG">
+
+## The Eigenvalue Problem
+
+<img src="/images/equationofmotion.JPG">
+
+With the following parameters set to zero:
+
+<img src="images\eq1.JPG">
+
+
+The equations of motion can be re-written in the form written below, describing a 2nd order ODE.
+
+<img src="images\eq2.JPG">
+
+
+The steady state solution of which can be expressed in the form:
+
+
+<img src="images\eq3.JPG">
+
+
+Where X* represents a complex vector with amplitude and phase.  
+
+
+Plugging back into equation [5] yields.
+
+<img src="images\eq4.JPG">
+
+
+This can be rearranged into.
+
+<img src="images\eq5.JPG">
+
+Therefore for non-trivial solutions.  
+
+<img src="images\eq6.JPG">
+
+An equation with a polynomial in ω^2. Each of the roots of the equation provide the natural frequencies/ eigenvalues.
