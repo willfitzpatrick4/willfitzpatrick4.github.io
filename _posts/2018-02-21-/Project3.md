@@ -73,7 +73,7 @@ After acquiring the density and respective areas for the beams the mass was assi
 
 The nodal point mass distribution for the T beam is represented in the following two diagrams.
 
-<img src="/images/massmatrix.JPG"> <img src="/images/schematic.png">
+ <img src="/images/schematic.png">
 
 The mass breakdown for the specific T beam in question is as follows:
 
@@ -95,18 +95,18 @@ The overall Mass matrix is given as:
 
 With the following parameters set to zero:
 
-<img src="images\eq1.JPG">
+<img src="images/eq1.JPG">
 
 
 The equations of motion can be re-written in the form written below, describing a 2nd order ODE.
 
-<img src="images\eq2.JPG">
+<img src="images/eq2.JPG">
 
 
 The steady state solution of which can be expressed in the form:
 
 
-<img src="images\eq3.JPG">
+<img src="images/eq3.JPG">
 
 
 Where X* represents a complex vector with amplitude and phase.  
@@ -114,15 +114,15 @@ Where X* represents a complex vector with amplitude and phase.
 
 Plugging back into equation [5] yields.
 
-<img src="images\eq4.JPG">
+<img src="images/eq4.JPG">
 
 
 This can be rearranged into.
 
-<img src="images\eq5.JPG">
+<img src="images/eq5.JPG">
 
 Therefore for non-trivial solutions.  
 
-<img src="images\eq6.JPG">
+<img src="images/eq6.JPG">
 
 An equation with a polynomial in ω^2. Each of the roots of the equation provide the natural frequencies/ eigenvalues.
